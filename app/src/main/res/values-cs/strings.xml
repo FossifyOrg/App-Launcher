@@ -12,6 +12,6 @@
     <string name="faq_1_text">Ne, nemůžete, protože se jedná pouze o jednoduchý pořadač pro ikony aplikací. Pro skutečný spouštěč určený pro domovskou obrazovku si nainstalujte naši další aplikaci &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.launcher&gt;Jednoduchý spouštěč&lt;/a&gt;.</string>
     <!--
         Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
     -->
 </resources>

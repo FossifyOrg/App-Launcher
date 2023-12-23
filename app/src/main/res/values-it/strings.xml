@@ -12,6 +12,6 @@
     <string name="faq_1_text">No, non è possibile, perché si tratta solo di un supporto di base per le icone delle applicazioni. Per un vero e proprio launcher per la schermata iniziale, scarica l\'altra applicazione &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.launcher&gt;Launcher Semplice&lt;/a&gt;.</string>
     <!--
         Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
     -->
 </resources>

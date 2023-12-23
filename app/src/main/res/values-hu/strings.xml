@@ -12,6 +12,6 @@
     <string name="faq_1_text">Nem, mivel ez csak egy egyszerű ikontartó. Egy valódi kezdőképernyős alkalmazásindítóhoz nézze meg az &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.launcher&gt;Egyszerű indító&lt;/a&gt; alkalmazást.</string>
     <!--
         Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
     -->
 </resources>

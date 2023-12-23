@@ -12,6 +12,6 @@
     <string name="faq_1_text">Nee, dat kan niet, omdat deze app alleen maar een starter is voor een subset aan gekozen apps. Kijk voor een echt Android beginscherm (launcher) naar onze andere app, &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.launcher&gt;Eenvoudige Launcher&lt;/a&gt;.</string>
     <!--
         Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
     -->
 </resources>

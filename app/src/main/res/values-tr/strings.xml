@@ -12,6 +12,6 @@
     <string name="faq_1_text">Hayır, bu yalnızca temel bir uygulama simgesi tutucusu olduğu için yapamazsınız. Gerçek bir ana ekran başlatıcısı için diğer uygulamamız olan &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.launcher&gt;Basit Başlatıcıyı&lt;/a&gt; edinin.</string>
     <!--
         Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
     -->
 </resources>

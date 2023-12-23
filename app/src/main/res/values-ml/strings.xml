@@ -12,6 +12,6 @@
     <string name="faq_1_text">ഇല്ല, ഇത് ഒരു അടിസ്ഥാന ആപ്പ് ഐക്കൺ ഹോൾഡർ മാത്രമായതിനാൽ നിങ്ങൾക്ക് കഴിയില്ല. ഒരു യഥാർത്ഥ ഹോം സ്‌ക്രീൻ ലോഞ്ചറിന് ഞങ്ങളുടെ മറ്റ് ആപ്പ് നേടുക &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.launcher&gt;Simple Launcher&lt;/a&gt;.</string>
     <!--
         Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
     -->
 </resources>

@@ -12,6 +12,6 @@
     <string name="faq_1_text">Ne, negalite to padaryti, nes tai tik paprastas programėlių piktogramų laikiklis. Norėdami gauti tikrą pradžios ekrano paleidyklę, atsisiųskite mūsų kitą programėlę, pavadinimu &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.launcher&gt;Paprasta paleidyklė&lt;/a&gt;.</string>
     <!--
         Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
     -->
 </resources>

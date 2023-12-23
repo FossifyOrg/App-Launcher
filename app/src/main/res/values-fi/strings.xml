@@ -12,6 +12,6 @@
     <string name="faq_1_text">Et voi, koska tämä on vain yksinkertainen sovelluskuvakkeiden näyttösovellus. Täysverinen kotinäyttö/käynnistinsovelluksemme on &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.launcher&gt;Simple Launcher&lt;/a&gt;.</string>
     <!--
         Haven't found some strings? There's more at
-        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
     -->
 </resources>
