@@ -2,6 +2,4 @@
 <resources>
     <string name="app_name">راه‌انداز ساده</string>
     <string name="app_launcher_name">راه‌انداز</string>
-    <string name="faq_1_title">Can I make this app the default launcher\?</string>
-    <string name="faq_1_text">Nope, you cannot as this is just a basic app icon holder. For a real home screen launcher get our other app &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.launcher&gt;Simple Launcher&lt;/a&gt;.</string>
-</resources>
+    </resources>
