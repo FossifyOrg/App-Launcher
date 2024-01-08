@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Simple App Launcher</string>
     <string name="app_launcher_name">Peluncur Aplikasi</string>
     <string name="enter_launcher_name">Harap masukkan nama peluncur</string>
     <string name="remove_explanation">Ini hanya akan menghapus ikon peluncur dari kisi ini, bukan menghapus instalan aplikasi yang sebenarnya.</string>
     <string name="close_app">Tutup aplikasi ini saat meluncurkan yang lain</string>
     <string name="toggle_app_name">Saklar keterlihatan nama aplikasi</string>
     <string name="manage_visible_app_icons">Kelola ikon aplikasi yang terlihat</string>
-    <!-- FAQ -->
     <string name="faq_1_title">Bisakan saya membuat aplikasi ini sebagai peluncur bawaan\?</string>
     <string name="faq_1_text">Tidak, Anda tidak bisa karena ini sebagai dudukan ikon aplikasi. Untuk peluncur layar beranda yang sebenarnya, dapatkan aplikasi &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.launcher&gt;Simple Launcher&lt;/a&gt;.</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

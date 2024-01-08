@@ -7,11 +7,6 @@
     <string name="close_app">Κλείστε αυτήν την εφαρμογή ξεκινώντας μια διαφορετική</string>
     <string name="toggle_app_name">Εναλλαγή προβολής ονόματος εφαρμογής</string>
     <string name="manage_visible_app_icons">Διαχείριση προβολής εικονιδίων εφαρμογών</string>
-    <!-- FAQ -->
     <string name="faq_1_title">Μπορώ να κάνω αυτή την εφαρμογή προεπιλεγμένο Εκκινητή;</string>
     <string name="faq_1_text">Όχι, δεν μπορείτε, καθώς πρόκειται απλώς για μια βασική θήκη εικονιδίων εφαρμογών. Για έναν πραγματικό Εκκινητή αρχικής οθόνης πάρετε την άλλη μας εφαρμογή &lt;a href=https://play.google.com/store/apps/details?id=com.simplemobiletools.launcher&gt;Απλός Εκκινητής&lt;/a&gt;.</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>

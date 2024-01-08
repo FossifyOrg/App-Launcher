@@ -7,11 +7,6 @@
     <string name="close_app">Diese Anwendung beim Öffnen einer anderen schließen</string>
     <string name="toggle_app_name">Sichtbarkeit des App-Namens umschalten</string>
     <string name="manage_visible_app_icons">Sichtbare App-Symbole verwalten</string>
-    <!-- FAQ -->
     <string name="faq_1_title">Kann ich diese Anwendung zum Standard-Startprogramm machen\?</string>
     <string name="faq_1_text">Nein, das kannst du nicht, da dies nur ein einfacher Anwendungssymbolhalter ist. Für ein echtes Startbildschirm-Startprogramm hole dir unsere andere Anwendung &lt;a href=https://play.google.com/store/apps/details\?id=com.simplemobiletools.launcher&gt;Simple Launcher&lt;/a&gt;.</string>
-    <!--
-        Haven't found some strings? There's more at
-        https://github.com/FossifyOrg/Commons/tree/master/commons/src/main/res
-    -->
 </resources>
