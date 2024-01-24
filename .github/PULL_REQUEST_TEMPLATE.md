@@ -25,4 +25,4 @@
 - 
 
 #### Acknowledgement
-- [ ] I read the [contribution guidelines](https://github.com/FossifyOrg/App-Launcher/CONTRIBUTING.md).
+- [ ] I read the [contribution guidelines](https://github.com/FossifyOrg/App-Launcher/blob/master/CONTRIBUTING.md).
