@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<SmellBaseline>
+  <ManuallySuppressedIssues></ManuallySuppressedIssues>
+  <CurrentIssues>
+    <ID>CyclomaticComplexMethod:Resources.kt$fun Resources.getLauncherDrawable(packageName: String): Drawable</ID>
+    <ID>EmptyCatchBlock:Context.kt${ }</ID>
+    <ID>EmptyCatchBlock:DBHelper.kt$DBHelper${ }</ID>
+    <ID>EmptyFunctionBlock:LaunchersAdapter.kt$LaunchersAdapter${}</ID>
+    <ID>MagicNumber:DBHelper.kt$DBHelper$3</ID>
+    <ID>MagicNumber:DBHelper.kt$DBHelper$4</ID>
+    <ID>MagicNumber:DBHelper.kt$DBHelper$5</ID>
+    <ID>MagicNumber:DBHelper.kt$DBHelper$6</ID>
+    <ID>MagicNumber:DBHelper.kt$DBHelper$7</ID>
+    <ID>MagicNumber:DBHelper.kt$DBHelper$8</ID>
+    <ID>MagicNumber:LaunchersAdapter.kt$LaunchersAdapter$0.1f</ID>
+    <ID>MagicNumber:MainActivity.kt$MainActivity$7</ID>
+    <ID>MaxLineLength:AddLaunchersAdapter.kt$AddLaunchersAdapter$class</ID>
+    <ID>MaxLineLength:AddLaunchersAdapter.kt$AddLaunchersAdapter$fun getSelectedLaunchers()</ID>
+    <ID>MaxLineLength:AppLauncher.kt$AppLauncher$data</ID>
+    <ID>MaxLineLength:ChangeSortingDialog.kt$ChangeSortingDialog$if</ID>
+    <ID>MaxLineLength:DBHelper.kt$DBHelper$"CREATE TABLE IF NOT EXISTS $MAIN_TABLE_NAME ($COL_ID INTEGER PRIMARY KEY AUTOINCREMENT, $COL_NAME TEXT, $COL_PKG_NAME TEXT UNIQUE, $COL_POSITION INTEGER,"</ID>
+    <ID>MaxLineLength:DBHelper.kt$DBHelper$val contacts = AppLauncher(0, context.getString(R.string.contacts_short), "com.simplemobiletools.contacts", 0)</ID>
+    <ID>MaxLineLength:DBHelper.kt$DBHelper$val keyboard = AppLauncher(0, context.getString(R.string.keyboard_short), "com.simplemobiletools.keyboard", 0)</ID>
+    <ID>MaxLineLength:DBHelper.kt$DBHelper$val smsMessenger = AppLauncher(0, context.getString(R.string.sms_messenger_short), "com.simplemobiletools.smsmessenger", 0)</ID>
+    <ID>MaxLineLength:DBHelper.kt$DBHelper$val voiceRecorder = AppLauncher(0, context.getString(R.string.voice_recorder_short), "com.simplemobiletools.voicerecorder", 0)</ID>
+    <ID>MaxLineLength:LaunchersAdapter.kt$LaunchersAdapter$)</ID>
+    <ID>MaxLineLength:LaunchersAdapter.kt$LaunchersAdapter.Binding.ItemLauncherLabel$override</ID>
+    <ID>MaxLineLength:LaunchersAdapter.kt$LaunchersAdapter.Binding.ItemLauncherLabel$return ItemLauncherLabelBindingAdapter(ItemLauncherLabelBinding.inflate(layoutInflater, viewGroup, attachToRoot))</ID>
+    <ID>MaxLineLength:LaunchersAdapter.kt$LaunchersAdapter.Binding.ItemLauncherNoLabel$override</ID>
+    <ID>MaxLineLength:LaunchersAdapter.kt$LaunchersAdapter.Binding.ItemLauncherNoLabel$return ItemLauncherNoLabelBindingAdapter(ItemLauncherNoLabelBinding.inflate(layoutInflater, viewGroup, attachToRoot))</ID>
+    <ID>MaxLineLength:MainActivity.kt$MainActivity$(fab.layoutParams as CoordinatorLayout.LayoutParams).bottomMargin = navigationBarHeight + resources.getDimension(R.dimen.activity_margin).toInt()</ID>
+    <ID>MaxLineLength:MainActivity.kt$MainActivity$launchersIgnoringSearch = launchersIgnoringSearch.filter { !invalidIds.contains(it.id.toString()) } as ArrayList&lt;AppLauncher&gt;</ID>
+    <ID>MaxLineLength:MainActivity.kt$MainActivity$updateMaterialActivityViews(binding.mainCoordinator, binding.launchersGrid, useTransparentNavigation = true, useTopSearchMenu = true)</ID>
+    <ID>MaxLineLength:MainActivity.kt$MainActivity$val launchers = launchersIgnoringSearch.filter { it.title.contains(text, true) }.toMutableList() as ArrayList&lt;AppLauncher&gt;</ID>
+    <ID>MaxLineLength:SettingsActivity.kt$SettingsActivity$settingsUseEnglishHolder.beVisibleIf((config.wasUseEnglishToggled || Locale.getDefault().language != "en") &amp;&amp; !isTiramisuPlus())</ID>
+    <ID>MaxLineLength:SettingsActivity.kt$SettingsActivity$updateMaterialActivityViews(settingsCoordinator, settingsHolder, useTransparentNavigation = true, useTopSearchMenu = false)</ID>
+    <ID>MayBeConst:DBHelper.kt$DBHelper.Companion$val DB_NAME = "applaunchers.db"</ID>
+    <ID>NestedBlockDepth:Context.kt$fun Context.getAllLaunchers(): ArrayList&lt;AppLauncher&gt;</ID>
+    <ID>NestedBlockDepth:DBHelper.kt$DBHelper$fun getLaunchers(): ArrayList&lt;AppLauncher&gt;</ID>
+    <ID>SwallowedException:Context.kt$e: Error</ID>
+    <ID>SwallowedException:Context.kt$e: Exception</ID>
+    <ID>SwallowedException:DBHelper.kt$DBHelper$e: Exception</ID>
+    <ID>SwallowedException:DBHelper.kt$DBHelper$e: PackageManager.NameNotFoundException</ID>
+    <ID>TooGenericExceptionCaught:Context.kt$e: Error</ID>
+    <ID>TooGenericExceptionCaught:Context.kt$e: Exception</ID>
+    <ID>TooGenericExceptionCaught:DBHelper.kt$DBHelper$e: Exception</ID>
+    <ID>TooGenericExceptionCaught:MainActivity.kt$MainActivity$e: Exception</ID>
+    <ID>TooGenericExceptionThrown:Resources.kt$throw RuntimeException("Invalid launcher package name $packageName")</ID>
+    <ID>TooManyFunctions:LaunchersAdapter.kt$LaunchersAdapter : MyRecyclerViewAdapterItemTouchHelperContractOnPopupTextUpdate</ID>
+    <ID>TooManyFunctions:MainActivity.kt$MainActivity : SimpleActivityLauncherAdapterUpdateListener</ID>
+    <ID>UnusedPrivateProperty:MainActivity.kt$MainActivity$name</ID>
+    <ID>VariableNaming:DBHelper.kt$DBHelper$private val COL_APP_ORDER = "app_order"</ID>
+    <ID>VariableNaming:DBHelper.kt$DBHelper$private val COL_ID = "id"</ID>
+    <ID>VariableNaming:DBHelper.kt$DBHelper$private val COL_NAME = "name"</ID>
+    <ID>VariableNaming:DBHelper.kt$DBHelper$private val COL_PKG_NAME = "package_name"</ID>
+    <ID>VariableNaming:DBHelper.kt$DBHelper$private val COL_POSITION = "position"</ID>
+    <ID>VariableNaming:DBHelper.kt$DBHelper$private val COL_WAS_RENAMED = "was_renamed"</ID>
+    <ID>VariableNaming:DBHelper.kt$DBHelper$private val MAIN_TABLE_NAME = "launchers"</ID>
+    <ID>VariableNaming:DBHelper.kt$DBHelper$val IDsToDelete = ArrayList&lt;String&gt;()</ID>
+    <ID>WildcardImport:EditDialog.kt$import com.simplemobiletools.commons.extensions.*</ID>
+    <ID>WildcardImport:LaunchersAdapter.kt$import android.view.*</ID>
+    <ID>WildcardImport:LaunchersAdapter.kt$import com.simplemobiletools.commons.extensions.*</ID>
+    <ID>WildcardImport:MainActivity.kt$import com.simplemobiletools.commons.extensions.*</ID>
+    <ID>WildcardImport:SettingsActivity.kt$import com.simplemobiletools.commons.extensions.*</ID>
+  </CurrentIssues>
+</SmellBaseline>

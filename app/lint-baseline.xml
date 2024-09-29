@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 8.6.1" type="baseline" client="gradle" dependencies="false" name="AGP (8.6.1)" variant="all" version="8.6.1">
+
+    <issue
+        id="DefaultLocale"
+        message="Implicitly using the default locale is a common source of bugs: Use `toLowerCase(Locale)` instead. For strings meant to be internal use `Locale.ROOT`, otherwise `Locale.getDefault()`."
+        errorLine1="            sorting and SORT_BY_TITLE != 0 -> title.toLowerCase().compareTo(other.title.toLowerCase())"
+        errorLine2="                                                    ~~~~~~~~~~~">
+        <location
+            file="src/main/kotlin/com/simplemobiletools/applauncher/models/AppLauncher.kt"
+            line="18"
+            column="53"/>
+    </issue>
+
+    <issue
+        id="DefaultLocale"
+        message="Implicitly using the default locale is a common source of bugs: Use `toLowerCase(Locale)` instead. For strings meant to be internal use `Locale.ROOT`, otherwise `Locale.getDefault()`."
+        errorLine1="            sorting and SORT_BY_TITLE != 0 -> title.toLowerCase().compareTo(other.title.toLowerCase())"
+        errorLine2="                                                                                        ~~~~~~~~~~~">
+        <location
+            file="src/main/kotlin/com/simplemobiletools/applauncher/models/AppLauncher.kt"
+            line="18"
+            column="89"/>
+    </issue>
+
+    <issue
+        id="DefaultLocale"
+        message="Implicitly using the default locale is a common source of bugs: Use `toLowerCase(Locale)` instead. For strings meant to be internal use `Locale.ROOT`, otherwise `Locale.getDefault()`."
+        errorLine1="                    title.toLowerCase().compareTo(other.title.toLowerCase())"
+        errorLine2="                          ~~~~~~~~~~~">
+        <location
+            file="src/main/kotlin/com/simplemobiletools/applauncher/models/AppLauncher.kt"
+            line="27"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="DefaultLocale"
+        message="Implicitly using the default locale is a common source of bugs: Use `toLowerCase(Locale)` instead. For strings meant to be internal use `Locale.ROOT`, otherwise `Locale.getDefault()`."
+        errorLine1="                    title.toLowerCase().compareTo(other.title.toLowerCase())"
+        errorLine2="                                                              ~~~~~~~~~~~">
+        <location
+            file="src/main/kotlin/com/simplemobiletools/applauncher/models/AppLauncher.kt"
+            line="27"
+            column="63"/>
+    </issue>
+
+    <issue
+        id="DefaultLocale"
+        message="Implicitly using the default locale is a common source of bugs: Use `toLowerCase(Locale)` instead. For strings meant to be internal use `Locale.ROOT`, otherwise `Locale.getDefault()`."
+        errorLine1="        allApps.sortBy { it.title.toLowerCase() }"
+        errorLine2="                                  ~~~~~~~~~~~">
+        <location
+            file="src/main/kotlin/com/simplemobiletools/applauncher/extensions/Context.kt"
+            line="62"
+            column="35"/>
+    </issue>
+
+    <issue
+        id="NewApi"
+        message="Call requires API level 33 (current min is 23): `launchChangeAppLanguageIntent`"
+        errorLine1="                launchChangeAppLanguageIntent()"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/kotlin/com/simplemobiletools/applauncher/activities/SettingsActivity.kt"
+            line="79"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="NotificationPermission"
+        message="When targeting Android 13 or higher, posting a permission requires holding the `POST_NOTIFICATIONS` permission (usage from com.simplemobiletools.commons.asynctasks.CopyMoveTask)">
+        <location
+            file="src/main/AndroidManifest.xml"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        message="Attribute `appCategory` is only used in API level 26 and higher (current min is 23)"
+        errorLine1="        android:appCategory=&quot;productivity&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="25"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        message="Attribute `localeConfig` is only used in API level 33 and higher (current min is 23)"
+        errorLine1="        android:localeConfig=&quot;@xml/locale_config&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="28"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="CustomSplashScreen"
+        message="The application should not provide its own launch screen"
+        errorLine1="class SplashActivity : BaseSplashActivity() {"
+        errorLine2="      ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/kotlin/com/simplemobiletools/applauncher/activities/SplashActivity.kt"
+            line="6"
+            column="7"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlin.android than 1.9.0 is available: 1.9.25"
+        errorLine1="kotlin = &quot;1.9.0&quot;"
+        errorLine2="         ~~~~~~~">
+        <location
+            file="$HOME/Projects/Community/FossifyOrg/App-Launcher/gradle/libs.versions.toml"
+            line="3"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlin.android than 1.9.0 is available: 1.9.25"
+        errorLine1="kotlin = &quot;1.9.0&quot;"
+        errorLine2="         ~~~~~~~">
+        <location
+            file="$HOME/Projects/Community/FossifyOrg/App-Launcher/gradle/libs.versions.toml"
+            line="3"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of org.jetbrains.kotlin.android than 1.9.0 is available: 1.9.25"
+        errorLine1="kotlin = &quot;1.9.0&quot;"
+        errorLine2="         ~~~~~~~">
+        <location
+            file="$HOME/Projects/Community/FossifyOrg/App-Launcher/gradle/libs.versions.toml"
+            line="3"
+            column="10"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `ResourcesCompat.getDrawable()`"
+        errorLine1="    return getDrawable(when (packageName) {"
+        errorLine2="           ^">
+        <location
+            file="src/main/kotlin/com/simplemobiletools/applauncher/extensions/Resources.kt"
+            line="8"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;app_launcher_name&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;or&quot; (Odia), &quot;eu&quot; (Basque), &quot;th&quot; (Thai)"
+        errorLine1="    &lt;string name=&quot;app_launcher_name&quot;>App Launcher_debug&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/debug/res/values/strings.xml"
+            line="3"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;app_name&quot; is not translated in &quot;be&quot; (Belarusian), &quot;sl&quot; (Slovenian), &quot;ca&quot; (Catalan), &quot;ml&quot; (Malayalam), &quot;or&quot; (Odia), &quot;sv&quot; (Swedish), &quot;in&quot; (Indonesian), &quot;th&quot; (Thai), &quot;ro&quot; (Romanian)"
+        errorLine1="    &lt;string name=&quot;app_name&quot;>Simple App Launcher&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="3"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;app_launcher_name&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;or&quot; (Odia), &quot;eu&quot; (Basque), &quot;th&quot; (Thai)"
+        errorLine1="    &lt;string name=&quot;app_launcher_name&quot;>App Launcher&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="4"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;enter_launcher_name&quot; is not translated in &quot;or&quot; (Odia), &quot;th&quot; (Thai), &quot;fa&quot; (Persian)"
+        errorLine1="    &lt;string name=&quot;enter_launcher_name&quot;>Please enter a launcher name&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="5"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;remove_explanation&quot; is not translated in &quot;or&quot; (Odia), &quot;eo&quot; (Esperanto), &quot;pa&quot; (Punjabi), &quot;th&quot; (Thai), &quot;fa&quot; (Persian)"
+        errorLine1="    &lt;string name=&quot;remove_explanation&quot;>This will just remove the launcher icon from this grid, not uninstall the actual app.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="6"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;close_app&quot; is not translated in &quot;or&quot; (Odia), &quot;th&quot; (Thai), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian)"
+        errorLine1="    &lt;string name=&quot;close_app&quot;>Close this app at launching a different one&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="7"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;toggle_app_name&quot; is not translated in &quot;or&quot; (Odia), &quot;eo&quot; (Esperanto), &quot;th&quot; (Thai), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian)"
+        errorLine1="    &lt;string name=&quot;toggle_app_name&quot;>Toggle app name visibility&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="8"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;manage_visible_app_icons&quot; is not translated in &quot;or&quot; (Odia), &quot;eo&quot; (Esperanto), &quot;th&quot; (Thai), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;da&quot; (Danish)"
+        errorLine1="    &lt;string name=&quot;manage_visible_app_icons&quot;>Manage visible app icons&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="9"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;faq_1_title&quot; is not translated in &quot;hi&quot; (Hindi), &quot;bg&quot; (Bulgarian), &quot;lv&quot; (Latvian), &quot;mk&quot; (Macedonian), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;eo&quot; (Esperanto), &quot;pa&quot; (Punjabi), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian)"
+        errorLine1="    &lt;string name=&quot;faq_1_title&quot;>Can I make this app the default launcher?&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="11"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="MissingTranslation"
+        message="&quot;faq_1_text&quot; is not translated in &quot;hi&quot; (Hindi), &quot;bg&quot; (Bulgarian), &quot;lv&quot; (Latvian), &quot;mk&quot; (Macedonian), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;eo&quot; (Esperanto), &quot;pa&quot; (Punjabi), &quot;nb&quot; (Norwegian Bokmål), &quot;th&quot; (Thai), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;da&quot; (Danish), &quot;ro&quot; (Romanian)"
+        errorLine1="    &lt;string name=&quot;faq_1_text&quot;>Nope, you cannot as this is just a basic app icon holder. For a real home screen launcher get our other app &amp;lt;a href=https://play.google.com/store/apps/details?id=com.simplemobiletools.launcher&amp;gt;Simple Launcher&amp;lt;/a&amp;gt;.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="12"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="NotifyDataSetChanged"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort."
+        errorLine1="            notifyDataSetChanged()"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/kotlin/com/simplemobiletools/applauncher/adapters/LaunchersAdapter.kt"
+            line="106"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="NotifyDataSetChanged"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort."
+        errorLine1="        notifyDataSetChanged()"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/kotlin/com/simplemobiletools/applauncher/adapters/LaunchersAdapter.kt"
+            line="123"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="NotifyDataSetChanged"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort."
+        errorLine1="                notifyDataSetChanged()"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/kotlin/com/simplemobiletools/applauncher/activities/MainActivity.kt"
+            line="72"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="Do not place Android context classes in static fields (static reference to `DBHelper` which has field `context` pointing to `Context`); this is a memory leak"
+        errorLine1="        var dbInstance: DBHelper? = null"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/kotlin/com/simplemobiletools/applauncher/helpers/DBHelper.kt"
+            line="32"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `?attr/selectableItemBackground` with a theme that also paints a background (inferred theme is `@style/AppTheme`)"
+        errorLine1="    android:background=&quot;?attr/selectableItemBackground&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_add_launcher.xml"
+            line="7"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `?attr/selectableItemBackground` with a theme that also paints a background (inferred theme is `@style/AppTheme`)"
+        errorLine1="    android:background=&quot;?attr/selectableItemBackground&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_launcher_label.xml"
+            line="6"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `?attr/selectableItemBackground` with a theme that also paints a background (inferred theme is `@style/AppTheme`)"
+        errorLine1="    android:background=&quot;?attr/selectableItemBackground&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_launcher_no_label.xml"
+            line="6"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.package_name` appears to be unused"
+        errorLine1="    &lt;string name=&quot;package_name&quot;>com.simplemobiletools.applauncher&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/donottranslate.xml"
+            line="3"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.integer.default_sorting` appears to be unused"
+        errorLine1="    &lt;integer name=&quot;default_sorting&quot;>2048&lt;/integer>"
+        errorLine2="             ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/integers.xml"
+            line="2"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="ClickableViewAccessibility"
+        message="Custom view ``ImageView`` has `setOnTouchListener` called on it but does not override `performClick`"
+        errorLine1="                launcherDragHandle.setOnTouchListener { v, event ->"
+        errorLine2="                ^">
+        <location
+            file="src/main/kotlin/com/simplemobiletools/applauncher/adapters/LaunchersAdapter.kt"
+            line="205"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="ClickableViewAccessibility"
+        message="`onTouch` lambda should call `View#performClick` when a click is detected"
+        errorLine1="                launcherDragHandle.setOnTouchListener { v, event ->"
+        errorLine2="                                                      ^">
+        <location
+            file="src/main/kotlin/com/simplemobiletools/applauncher/adapters/LaunchersAdapter.kt"
+            line="205"
+            column="55"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="    &lt;ImageView"
+        errorLine2="     ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_add_launcher.xml"
+            line="13"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="    &lt;ImageView"
+        errorLine2="     ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_launcher_label.xml"
+            line="30"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="    &lt;ImageView"
+        errorLine2="     ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_launcher_label.xml"
+            line="42"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="    &lt;ImageView"
+        errorLine2="     ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_launcher_no_label.xml"
+            line="19"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        message="Missing `contentDescription` attribute on image"
+        errorLine1="    &lt;ImageView"
+        errorLine2="     ~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_launcher_no_label.xml"
+            line="31"
+            column="6"/>
+    </issue>
+
+    <issue
+        id="RtlSymmetry"
+        message="When you define `paddingStart` you should probably also define `paddingEnd` for right-to-left symmetry"
+        errorLine1="        android:paddingStart=&quot;@dimen/normal_margin&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/item_add_launcher.xml"
+            line="35"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="RtlEnabled"
+        message="The project references RTL attributes, but does not explicitly enable or disable RTL support with `android:supportsRtl` in the manifest">
+        <location
+            file="src/main/AndroidManifest.xml"/>
+    </issue>
+
+</issues>
